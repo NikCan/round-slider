@@ -1,0 +1,17 @@
+.paginationContainer {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+}
+
+.navigationContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 7.5%;
+
+    & * {
+        font-size: var(--font-size-s);
+    }
+}

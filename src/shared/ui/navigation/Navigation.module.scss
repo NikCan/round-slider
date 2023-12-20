@@ -1,0 +1,26 @@
+.Navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonPrev,
+.buttonNext {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--border-color-second);
+    position: relative;
+    cursor: pointer;
+
+    &:disabled {
+        opacity: 0.5;
+        pointer-events: none;
+    }
+
+    & img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

@@ -1,0 +1,41 @@
+.eventsSwiper {
+    width: 85%;
+    position: static !important;
+    display: grid;
+    opacity: 0.9;
+
+    .swiper-slide {
+        width: auto;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        inset: initial;
+        margin: 0;
+        align-self: center;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: url('next.svg') no-repeat center center;
+        background-color: white;
+
+        &::after {
+            content: none;
+        }
+
+        &.swiper-button-disabled {
+            display: none;
+        }
+    }
+
+    .swiper-button-prev {
+        justify-self: start;
+        margin-left: -50px;
+        transform: rotate(180deg);
+    }
+
+    .swiper-button-next {
+        justify-self: end;
+        margin-right: -50px;
+    }
+}

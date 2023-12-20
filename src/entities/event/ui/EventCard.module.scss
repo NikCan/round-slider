@@ -1,0 +1,41 @@
+.EventCard {
+    height: 135px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.year {
+    font-family: var(--font-family-second);
+    font-size: 25px;
+    color: var(--second-color)
+}
+
+.text {
+    height: 90px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+@media (max-width: 900px) {
+    .EventCard {
+        height: 114px;
+        width: 166px;
+    }
+
+    .year {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+
+    .text {
+        height: 80px;
+        -webkit-line-clamp: 4;
+        font-size: var(--font-size-s);
+        line-height: var(--font-line-s);
+    }
+}

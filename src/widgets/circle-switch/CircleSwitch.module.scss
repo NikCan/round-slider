@@ -1,0 +1,41 @@
+.CircleSwitch {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    z-index: 3;
+}
+
+.point {
+    position: absolute;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    cursor: pointer;
+    color: transparent;
+}
+
+.activePoint,
+.point:hover {
+    border: 1px solid var(--primary-color);
+    background-color: var(--bg-color-main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: unset;
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: transparent;
+}
+
+.title {
+    position: absolute;
+    left: 80px;
+    font-weight: 700;
+}

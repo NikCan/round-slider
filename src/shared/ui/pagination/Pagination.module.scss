@@ -1,0 +1,22 @@
+.Pagination {
+    display: flex;
+}
+
+.dot {
+    border-radius: 50%;
+    height: 6px;
+    width: 6px;
+    background-color: var(--primary-color);
+    opacity: 0.4;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.activeDot {
+    opacity: 1;
+}

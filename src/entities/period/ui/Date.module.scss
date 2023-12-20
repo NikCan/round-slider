@@ -1,0 +1,26 @@
+.Date {
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 160px;
+    pointer-events: none;
+}
+
+@media (max-width: 1200px) {
+    .Date {
+        font-size: 140px;
+        line-height: 80px;
+    }
+}
+@media (max-width: 900px) {
+    .Date {
+        font-size: 120px;
+        line-height: 80px;
+    }
+}
+
+@media (max-width: 600px) {
+    .Date {
+        font-size: 56px;
+        line-height: 72.46px;
+    }
+}

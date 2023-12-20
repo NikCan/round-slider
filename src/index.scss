@@ -1,0 +1,27 @@
+:root {
+  --font-family-main: 'PT Sans', sans-serif;
+  --font-family-second: 'Bebas Neue', sans-serif;
+
+  --font-size-s: 14px;
+  --font-line-s: 20.3px;
+  --font-size-m: 20px;
+  --font-line-m: 30px;
+
+  /* colors */
+  --primary-color: #42567A;
+  --second-color: #3877EE;
+  --border-color: #E3E6ED;
+  --border-color-second: #9BA5B9;
+  --bg-color-main: #F4F5F9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-m);
+  line-height: var(--font-line-m);
+  color: var(--primary-color);
+  background-color: var(--bg-color-main);
+}
