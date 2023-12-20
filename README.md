@@ -23,17 +23,17 @@ The project aims to implement a block that displays information about time inter
 2. Navigate to the project directory:
 
    ```bash
-cd round-slider
+   cd round-slider
 
 3. Install the project dependencies:
 
    ```bash
-yarn
+   yarn
 
 4. To start the development server and run the application, use the following command:
 
    ```bash
-yarn dev
+   yarn dev
 
 This will launch the application in development mode. Open your browser and go to http://localhost:3000 to view it.
 
