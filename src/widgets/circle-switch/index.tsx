@@ -1,5 +1,5 @@
 import { setPeriod, usePeriodStore } from "entities/period";
-import { FC, useEffect, useMemo, useState } from "react";
+import { FC, useEffect, useMemo, useRef, useState } from "react";
 import { timePoints } from "shared/const";
 import { classNames } from "shared/lib";
 import { Circle } from "shared/ui";

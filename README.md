@@ -5,7 +5,7 @@
 The project aims to implement a block that displays information about time intervals, each containing multiple events. The block features interactive sliders that change corresponding values when switching between time intervals. Additionally, a detailed slider appears below with information about key events during the active time interval.
 
 ## Technology Stack
-
+- **FSD**
 - **React/TypeScript**: The project is developed using React.js with TypeScript for enhanced type checking.
 - **Zustand**: Zustand is used for state management in React applications.
 - **SASS/SCSS**: Styling is done using SASS/SCSS for modular and maintainable stylesheets.
